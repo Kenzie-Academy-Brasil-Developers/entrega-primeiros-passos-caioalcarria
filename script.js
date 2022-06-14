@@ -35,17 +35,13 @@ let total = (a+b+c+d+e+f)
 
 
 if (total%2 ==0){
-    let seuAmigo = ((total-f)/2)+f
-    let voce = (total-f)/2
+    console.log(total)
+    console.log(`Você deverá pagar ${(total-f)/2} e seu amigo ${((total-f)/2)+f}`)
+    alert(`Você deverá pagar ${(total-f)/2} e seu amigo ${((total-f)/2)+f}`)
 
 }else{
-    let voce = parseInt(total/2) 
-    let seuAmigo = parseInt(total/2)
-    
+    console.log(total)
+    console.log(`Você deverá pagar ${total/2} e seu amigo ${total/2}`)
+    alert(`Você deverá pagar ${total/2} e seu amigo ${total/2}`)
 }
-let voce = 
-console.log(total)
-console.log(`Você deverá pagar ${voce} e seu amigo ${seuAmigo}`)
-
-alert(`Você deverá pagar ${voce} e seu amigo ${seuAmigo}`)
 
